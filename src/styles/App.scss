@@ -1,0 +1,46 @@
+@use "./core/reset";
+
+html {
+  background-color: black;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+nav {
+  display: flex;
+  gap: 1.7rem;
+  justify-content: end;
+  padding-right: 5rem;
+  padding-block: 1rem;
+  background-color: black;
+  color: white;
+  position: relative;
+}
+nav .p {
+  cursor: pointer;
+}
+.parallax {
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  background-repeat: no-repeat;
+}
+.text {
+  height: auto;
+  padding-block: 1.5rem;
+  background-color: black;
+  color: grey;
+  font-size: 2rem;
+  text-align: center;
+  padding-inline: 2rem;
+}
+
+.parallax.picture1 {
+  background-image: url("../images/sony.jpg");
+  position: relative;
+}
+
+.parallax.picture2 {
+  background-image: url("../images/rail.jpg");
+  position: relative;
+}
