@@ -16,7 +16,7 @@ function App() {
           Because life isn't just about moments—it's about memories. A camera
           lets you freeze time, capture emotion, and preserve the essence of
           what makes each experience unique. <br></br>
-          <strong style={{ fontSize: "3rem" }}>
+          <strong style={{ fontSize: "2.3rem" }}>
             Don't just see it, capture it.
           </strong>
         </p>

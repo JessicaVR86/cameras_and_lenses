@@ -28,12 +28,12 @@ nav {
 }
 .text {
   height: auto;
-  padding-block: 1.5rem;
+  padding-block: 0.7rem;
   background-color: black;
   color: grey;
-  font-size: 2rem;
+  font-size: 1rem;
   text-align: center;
-  padding-inline: 2rem;
+  padding-inline: 1.7rem;
 }
 
 .parallax.picture1 {
@@ -54,14 +54,19 @@ nav {
   display: flex;
   gap: 1.7rem;
   justify-content: end;
-  padding-right: 5rem;
-  padding-block: 1rem;
-  background-color: black;
-  color: white;
-  position: relative;
+  padding-right: 5rem; 
+  
   font-size: 25px;
 }
 
+
+.text {
+  height: auto;
+  padding-block: 2rem;
+  font-size: 1.7rem;
+  text-align: center;
+  padding-inline: 1.7rem;
+}
 
 .parallax {
 object-fit: none;
